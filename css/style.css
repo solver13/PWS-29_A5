@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    color: white;
+}
+
+#button-fetch {
+    margin-right: 1vw;
+}
+
+.form-control {
+    width: 20vw;
+}
+
+.i-text {
+    max-width: 70%;
+    margin: 6px 0;
+}

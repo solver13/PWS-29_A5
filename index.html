@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>PWS-29 A5.15</title>
+
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Курочка ряба</h1>
+
+      <form id="messages">
+
+        <div class="form-group">
+          <label for="var1">var1</label>
+          <input type="text" id="var1" class="form-control" name="var1" placeholder="Дед" value="Дед">
+          <label for="var2">var2</label>
+          <input type="text" id="var2" class="form-control" name="var2" placeholder="Баба" value="Баба">
+          <label for="var3">var3</label>
+          <input type="text" id="var3" class="form-control" name="var3" placeholder="Курочка" value="Курочка Ряба">
+          <label for="var4">var4</label>
+          <input type="text" id="var4" class="form-control" name="var4" placeholder="яичко" value="яичко">
+          <label for="var5">var5</label>
+          <input type="text" id="var5" class="form-control" name="var5" placeholder="мышка" value="мышка">
+          <label for="var6">var6</label>
+          <input type="text" id="var6" class="form-control" name="var6" placeholder="хвостиком" value="хвостиком">
+          <label for="speech">speech</label>
+          <input type="text" id="speech" class="form-control" name="speech" placeholder="">
+
+        </div>
+
+      </form>
+
+      <div class="i-text"> </div>
+
+      <div class="row">
+        <a id="button-fetch" class="btn btn-primary">Создать текст</a>      
+         
+        <a id="button-result" class="btn btn-primary">Заменить переменные</a>
+      </div>
+    </div> <!-- end container-->
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/skazka.js"></script>
+  </body>
+</html>
